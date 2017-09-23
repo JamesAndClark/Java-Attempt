@@ -3,10 +3,10 @@ I was given a coding challenge to create a game, though I am very new to Java. T
 The goal here is to produce a number guessing game. Some code will be more suited to r as I am more familiar with it.  
 
 # Coding variables
- target1 = getRandomNumber // I am unsure how to code the getRandomNumber function, though for this our range is 0-100
- target2 = getRandomNumber  
+ target1 = getRandomNumber(); // I am unsure how to code the getRandomNumber function, though for this our range is 0-100
+ target2 = getRandomNumber();  
  int Lives = 10 // The player will have 10 guesses  
- Points = 0 // This is a fairly basic scoring system, and as a result it is heavily flawed.  
+ int Points = 0 // This is a fairly basic scoring system, and as a result it is heavily flawed.  
  # Coding the game
  if ((getUserInput - target1) < (getUserInput - target2))  {  // Need to code absolute value for this to work  
       System.out.printin("You are closer to Target 1 than Target 2") ;  
@@ -28,9 +28,9 @@ The goal here is to produce a number guessing game. Some code will be more suite
  }  
  if (getUserInput == target1 || getUserInput == target2) {  
    System.out.printin("You have correctly discovered a target number");  
-    Set(Points = (Points + 1)) // unsure of how to code the points and lives mechanic.   
+    Points = (Points + 1)); // unsure of how to code the points and lives mechanic.   
  else if  (getUserInput != target 1 || getUserInput != target 2) {  
-   set(Lives = (Lives - 1));  
+   Lives = (Lives - 1)); 
 lives--; lives-=1 lives = lives - 1  
    System.out.printin("You have not correctly discovered a target number");    
    System.out.printin("You have" + Lives + "Remaining");  
