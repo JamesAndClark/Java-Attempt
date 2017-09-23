@@ -3,7 +3,7 @@ I was given a coding challenge to create a game, though I am very new to Java. T
 The goal here is to produce a number guessing game. Some code will be more suited to r as I am more familiar with it.  
 
 # Coding variables
- target1 = getRandomNumber(); // I am unsure how to code the getRandomNumber function, though for this our range is 0-100
+ target1 = getRandomNumber(); // I am unsure how to code the getRandomNumber function, though for this our range is 0-100  
  target2 = getRandomNumber();  
  int Lives = 10 // The player will have 10 guesses  
  int Points = 0 // This is a fairly basic scoring system, and as a result it is heavily flawed.  
